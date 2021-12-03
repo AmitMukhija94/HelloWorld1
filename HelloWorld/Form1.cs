@@ -19,8 +19,13 @@ namespace HelloWorld
 
         private void button1_Click(object sender, EventArgs e)
         {
-            label1.Text = "Hello World!";
+            label1.Text = "Hello!";
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            label2.Text = "From Amit Mukhija";
         }
     }
 }
